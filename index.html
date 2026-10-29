@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio acadêmico sobre o professor Jeovanne e os componentes curriculares de tecnologia.">
+  <title>Portfólio | Professor Jeovanne</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="topo" id="inicio">
+    <nav class="navegacao container" aria-label="Navegação principal">
+      <a class="marca" href="#inicio">PJ<span>.</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#componentes">Componentes</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Créditos</a></li>
+      </ul>
+    </nav>
+    <section class="hero container">
+      <div class="hero-texto">
+        <p class="etiqueta">CENTRO EDUCA MAIS DOM UNGARELLI</p>
+        <h1>Aprender tecnologia.<br><span>Criar possibilidades.</span></h1>
+        <p class="resumo">Portfólio acadêmico dedicado ao professor Jeovanne e aos conhecimentos de programação para front-end e desenvolvimento e modelagem de banco de dados.</p>
+        <a class="botao" href="#componentes">Explorar o portfólio <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-card" aria-label="Ilustração de código">
+        <div class="janela">
+          <div class="janela-topo"><i></i><i></i><i></i><span>projeto.js</span></div>
+          <pre><code><b>const</b> aprendizado = {
+  criatividade: <em>true</em>,
+  logica: <em>true</em>,
+  colaboracao: <em>true</em>
+};
+
+<b>function</b> construirFuturo() {
+  <b>return</b> "novas ideias";
+}</code></pre>
+        </div>
+        <div class="selo">HTML · CSS · JS · SQL</div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="secao container" id="sobre">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">01 / APRESENTAÇÃO</p>
+        <h2>Sobre este <span>portfólio</span></h2>
+      </div>
+      <div class="sobre-grid">
+        <div class="foto-professor"><img src="img/professor-jeovanne.png" alt="Foto do professor Jeovanne"></div>
+        <div>
+          <h3>Professor Jeovanne</h3>
+          <p>Este espaço apresenta, de forma organizada, os componentes curriculares relacionados à criação de interfaces web e à organização de dados. A proposta é valorizar a aprendizagem, a prática e a aplicação dos conhecimentos desenvolvidos no ambiente escolar.</p>
+          <p class="nota"><strong>Observação:</strong> informações biográficas, formação, trajetória profissional e contatos do professor devem ser acrescentados somente após confirmação dos dados.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-fundo" id="componentes">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <p class="etiqueta">02 / ÁREAS DE ESTUDO</p>
+          <h2>Componentes <span>curriculares</span></h2>
+          <p class="introducao">Do visual da página à estrutura por trás dos dados: duas áreas que se complementam no desenvolvimento de sistemas.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="icone">&lt;/&gt;</div>
+            <p class="numero">COMPONENTE 01</p>
+            <h3>Programação para Front-End</h3>
+            <p>Estudo da parte visual e interativa de sites e aplicações, pensando na experiência de quem utiliza o sistema.</p>
+            <ul>
+              <li><strong>HTML:</strong> estrutura e semântica do conteúdo.</li>
+              <li><strong>CSS:</strong> cores, layout, responsividade e identidade visual.</li>
+              <li><strong>JavaScript:</strong> interatividade e comportamento da página.</li>
+              <li><strong>Usabilidade:</strong> acessibilidade e navegação intuitiva.</li>
+            </ul>
+            <span class="tag">Interfaces web</span><span class="tag">Experiência do usuário</span>
+          </article>
+          <article class="card">
+            <div class="icone">▤</div>
+            <p class="numero">COMPONENTE 02</p>
+            <h3>Desenvolvimento e Modelagem de Banco de Dados</h3>
+            <p>Planejamento e organização das informações para que possam ser armazenadas, consultadas e mantidas com consistência.</p>
+            <ul>
+              <li><strong>Modelagem:</strong> entidades, atributos e relacionamentos.</li>
+              <li><strong>Modelo relacional:</strong> tabelas, registros e chaves.</li>
+              <li><strong>SQL:</strong> comandos para criar e consultar dados.</li>
+              <li><strong>Integridade:</strong> organização, consistência e regras.</li>
+            </ul>
+            <span class="tag">Dados</span><span class="tag">SQL</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container" id="projetos">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">03 / PRÁTICA</p>
+        <h2>Aprendizagem em <span>ação</span></h2>
+        <p class="introducao">Ideias de atividades que conectam os dois componentes curriculares. Os itens abaixo são sugestões de projetos acadêmicos.</p>
+      </div>
+      <div class="projetos-grid">
+        <article class="projeto">
+          <span class="projeto-numero">01</span>
+          <div><h3>Site institucional responsivo</h3><p>Construir páginas com HTML semântico, estilos CSS e recursos interativos em JavaScript.</p><span class="mini-tag">Front-end</span></div>
+        </article>
+        <article class="projeto">
+          <span class="projeto-numero">02</span>
+          <div><h3>Modelo de dados escolar</h3><p>Representar alunos, turmas e disciplinas em um modelo com entidades e relacionamentos.</p><span class="mini-tag">Banco de dados</span></div>
+        </article>
+        <article class="projeto">
+          <span class="projeto-numero">03</span>
+          <div><h3>Cadastro com consulta</h3><p>Planejar uma interface de cadastro e definir como as informações seriam organizadas no banco.</p><span class="mini-tag">Integração conceitual</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="faixa">
+      <div class="container faixa-conteudo">
+        <p class="etiqueta">TECNOLOGIA É CONSTRUÇÃO CONTÍNUA</p>
+        <h2>Conhecimento se transforma em projeto quando colocamos a mão na massa.</h2>
+      </div>
+    </section>
+
+    <section class="secao container" id="contato">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">04 / CRÉDITOS</p>
+        <h2>Informações do <span>trabalho</span></h2>
+      </div>
+      <div class="creditos">
+        <p><strong>Professor:</strong> Jeovanne</p>
+        <p><strong>Instituição:</strong> Centro Educa Mais Dom Ungarelli</p>
+        <p><strong>Componentes:</strong> Programação para Front-End; Desenvolvimento e Modelagem de Banco de Dados</p>
+        <p><strong>Desenvolvido por:</strong> <span contenteditable="true" class="editavel" title="Clique para editar">[Nome do(a) estudante]</span></p>
+        <p><strong>Turma / ano:</strong> <span contenteditable="true" class="editavel" title="Clique para editar">[Preencha sua turma e ano]</span></p>
+      </div>
+      <p class="dica">Dica: clique nos campos destacados para editar os dados antes de apresentar. Para salvar permanentemente, altere o texto diretamente no arquivo <code>index.html</code>.</p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo"><a class="marca" href="#inicio">PJ<span>.</span></a><p>Portfólio acadêmico · Centro Educa Mais Dom Ungarelli</p><a href="#inicio">Voltar ao topo ↑</a></div>
+  </footer>
+</body>
+</html>
